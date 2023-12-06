@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: black; */
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(255, 8, 8); */
+}
+#top{
+    pointer-events: none;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.333); */
+    position: absolute;
+    top:0;
+    left:0;
+    
+}
+
+
+#top #work{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 100vh;
+    /* background-color: grey; */
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+#work #nav{
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nleft img{
+    height: 60px;
+    border-radius: 50%;
+}
+#nleft, #nright {
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#nav a{
+    pointer-events: all;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 600;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    letter-spacing: 0.8px;
+    font-family: sofia;
+
+}
+
+
+#hero{
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+    /* background-color: red; */
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(0,-50%);
+
+}
+#hleft{
+    min-width: 50%;
+    /* height: 0px; */
+    /* background-color: rgb(0, 255, 68); */
+}
+#hleft #elem{
+    height: 6.5vw;
+    overflow: hidden;
+    position: relative; 
+}
+
+#hleft #elem h1:nth-child(1){
+top:0;
+}
+
+#hleft #elem h1{
+    font-family:"Kajiro";
+    font-weight:500;
+    color: aliceblue;
+    font-size: 8vw;
+    line-height: 0.9;
+    position: absolute;
+    top:100%;
+    left:0; 
+}
+#hero button{
+    pointer-events: all;
+    margin-top: 1vw;
+    padding: 3px 14px;
+    border-radius: 13px;
+    color: aliceblue;
+    background-color: black;
+    border:1px solid white;
+
+}
+#hero button:hover{
+    background-color: aqua;
+    color: red;
+    cursor: pointer;
+}
+
+  #hright{
+    width: 25%;
+     /* height: 100px;  */
+     /* background-color: rgb(0, 149, 255); */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column; 
+    align-items: center;
+
+}
+ #hright p{
+    font-size: 12px; 
+     align-items: right;
+     color: aliceblue;
+     margin-bottom: 10px;
+     width: 30vh;
+}
+ #hright #img{
+    width: 80%;
+    height: 100px;
+    background:red;
+    /* margin-top:1px; */
+    margin-bottom:13px;
+    background-size: cover;
+    background-position: center;
+}   
+#hright p:nth-child(3){
+    color: rgb(133, 25, 215);
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
