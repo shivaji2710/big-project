@@ -1,0 +1,12 @@
+1)list-style:none;=>dote are gone
+
+2)text-decoretion:none=>line are gone
+
+3)no-repeat center center/cover=>no repeat image
+
+4) background-repeat: no-repeat;
+     background-size: 100%;
+
+
+
+
