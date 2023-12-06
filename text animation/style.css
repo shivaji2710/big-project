@@ -1,0 +1,230 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%; 
+    background-color: black;
+
+}
+#curser{
+    width: 1vw;
+    height: 2vh;
+    background-color: azure;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999999;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    mix-blend-mode: difference;
+}
+
+#main{
+    width: 100%;
+    
+}
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.bounding .textanimated{
+    transform: translateY(100%);
+}
+#adjest{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+#nav{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+#nav h1{
+    font-size: 1.2vw;
+}
+
+#mid{
+    width: 100%;
+    line-height: 7.8vw;
+    padding: 3vw;
+    margin-top: 1vh;
+    opacity: 0.7;
+}
+
+#rightho{
+    line-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#mid h2{
+    font-size: 9vw;
+    font-weight: 100;
+}
+#midright{
+    margin-left: 15vw;
+
+}
+h4{
+    margin-left: 50vw;
+    margin-top: -3vw;
+}
+
+#end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6vw;
+    opacity: 0.8;
+
+}
+#endlogo{
+    margin-right: 3vw;
+    display: flex;
+    gap: 0.2vw;
+
+}
+#endlogo i{
+    gap: 2vw;
+    color: #000;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.7;
+
+}
+#secondpage{
+    width: 90%;
+    height:100vh;
+    padding-top:25vh;
+    position: relative;
+    
+   
+}
+#secondpage h1{
+font-size: 7vw;
+font-weight: 100;
+opacity: 0.7;
+}
+#secondpage h2{
+    font-size: 1vw;
+    font-weight: 100;
+    opacity: 0.7;
+    }
+.elem img{
+    height: 25vh;
+    z-index: 100;
+    position: absolute;
+    display: none;
+}
+.elem{
+    width: 100%;
+    height: 25vh;
+    border-top: 1px solid #dadada;
+
+}
+.elembottom{
+    margin-bottom: -5vh;
+    border-bottom: 1px solid #dadada;
+
+}
+#secondsepret{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4vh;
+}
+
+#lastpage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vw;
+    margin-top: 18vw;
+    padding-left: 20vw ;
+
+}
+#lastpage img{
+    height: 250px;
+}
+#lastpagetext{
+    width: 40%;
+}
+#lastpagetext h6{
+    font-weight: 100;
+    font-size: 1vw;
+}
+#lastpagetext p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 2vw;
+}
+
+#lastpagetext button{
+    margin-top: 1rem;
+    padding: 8px 20px;
+    border-radius: 12vh;
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+}
+
+#lastpagefooter{
+margin-top: 12vh;
+padding: 2vh 7vh ;
+}
+
+#lastpagefooter h2{
+    font-size: 1vw;
+}
+#lastpagefooter h1{
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+
+#lastpagebottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13vh;
+    padding: 3vh 7vh;
+
+
+}
+#lastpagebottom-left{
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+#lastpagebottom-left h3{
+    font-size: 1.2vw;
+}
+#lastpagebottom-left h2{
+    font-size: 1.3vw;
+
+}
+
+#lastpagebottom-right a{
+    text-decoration: none;
+    margin-left: 4vw;
+    font-size: 1vw;
+    font-weight: 700;
+}
