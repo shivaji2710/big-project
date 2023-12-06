@@ -1,0 +1,485 @@
+@font-face {
+    font-family: shiv1;
+    src: url(./shiv3.ttf);
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+   width: 100%;
+   height: 100%;
+    overflow-x: hidden;
+    background-color: #c5b8b3;
+}
+#page1{
+    height: 126vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #c5bdb3;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 43px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+#nav img{
+    height: 20px;
+    
+}
+#nav h5{
+    font-weight: 100;
+
+}
+#elem{
+    /* width: 100%; */
+    height: 250px;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 20px;
+}
+#elem1{
+    width: 30%;
+    /* background-color: #c5bdb3; */
+    height: 100%;
+}
+#elem2{
+    width: 25%;
+    /* background-color: #8b520b; */
+    border-left:1px solid rgba(11, 10, 10, 0.329) ;
+    border-right:1px solid rgba(11, 10, 10, 0.329) ;
+    padding: 12px 23px;
+    text-align: center;
+    height: 100%;
+}#elem3{
+    width: 30%;
+    /* background-color: #0ede3b; */
+    height: 100%;
+}
+#elem1 #img{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+} 
+#img img{
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.6s;
+    object-fit: cover;
+
+}
+#img:hover img{
+    scale:1.1;
+}
+
+#elem2 #img{
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+} 
+#elem3 #img{
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+#elem1 h4{
+    font-family: canopee;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#elem1 h4 span{
+    background-color: #b83c12;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin-left:5px;
+    border-radius: 4px;
+    color: rgb(158, 159, 159);
+    font-weight: 100;
+}
+#elem1 p{
+    font-size: 14px;
+    font-family: shiv1;
+    font-weight: 100;
+    color: rgb(56, 56, 56);
+}
+
+
+#elem3 h4{
+    font-family: canopee;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+#elem3 h4 span{
+    background-color: #b83c12;
+    padding: 2px 5px;
+    font-size: 15px;
+    margin-left:5px;
+    border-radius: 4px;
+    color: rgb(158, 159, 159);
+    font-weight: 100;
+}
+#elem3 p{
+    font-size: 14px;
+    font-family: shiv1;
+    font-weight: 100;
+    color: rgb(56, 56, 56);
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size:40px;
+    font-weight: 100;
+}
+#elem2 h3{
+    font-family: shiv1;
+    font-size:25px;
+    color: #5e5e5e;
+    font-weight: 100;
+    margin-bottom: 32px;
+}
+#elem2 h6{
+    font-family: shiv1;
+    font-size:15px;
+    color: #5e5e5e;
+    font-weight: 100;
+}
+#elem2 h6 span{
+    color: black;
+    margin-right: 3px;
+}
+#page1 h1{
+    font-weight: 100;
+    font-size: 390px;
+    width: 96%;
+    line-height: 300px;
+    letter-spacing: -15px;
+
+    font-family: canopee;
+    background-color: black;
+    color: #c5bdb3;
+    margin-left: 2%;
+}
+
+
+
+#page2{
+    width: 100%;
+    height: 150vh;
+    background-color: #c5b8b3;
+    display: flex;
+    align-items: center;
+    padding: 35px 30px;
+    justify-content: space-between;
+
+}
+  #page2left{
+height: 100%;
+width: 30%;
+/* background-color: #b83c12; */
+padding-right: 35px;
+border-right:1px solid black ;
+
+}
+#page2left h2{
+ font-size: 80px;
+ font-weight: 200;
+ font-family: canopee;
+ line-height: 7vw;
+  text-align: center; 
+
+}
+#page2left img{
+height: 60%;
+width: 107%;
+object-fit: cover;
+}
+#page2left h2 span{
+    font-size: 120px;
+    font-weight: 700;
+    font-family: canopee;
+}
+#page2left p{
+    font-size: 15px;
+    font-family: shiv1;
+}
+
+#page2right{
+     height: 100%;
+     width: 70%;
+     padding: 0 20px;
+     /* background-color:red ; */
+}  
+#page2right img{
+   height: 80vh;
+   width: 100%;
+   object-fit: cover;
+}
+#page2right h1{
+    font-family: canopee;
+    font-size: 63px;
+    font-weight: 100;
+    padding: 0 20px;
+
+}
+#page3{
+    overflow: hidden;
+    padding-bottom: 100px;
+    height: 53vh;
+    position: relative;
+    background-color: #c5b8b3;
+}
+#page3 h1{
+    font-size: 310px;
+    font-family: canopee;
+    font-weight: 100;
+    letter-spacing: -10px;
+    width: fit-content;
+    line-height: 250px;
+    margin-left: 20px;
+    background-color: black;
+    color: #c5b8b3;
+}
+#page3 img{
+    top: 0;
+    right: 3%;
+    position: absolute;
+    height: 250px;
+    width: 270px;
+}
+
+
+ #page4{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    background-color: #c5b8b3;
+ }
+ #page4left{
+    width: 70%;
+    height: 100%;
+    /* background-color: red; */
+    border-right: 1px solid black;
+ }
+#page4left-top{
+    width: 100%;
+    height: 40%;
+    /* background-color: #00f310; */
+    display: flex;
+    padding:23px;
+
+}
+#page4l{
+    width: 50%;
+    height: 100%;
+    /* background-color: #b8123c; */
+    border-right:2px solid black ;
+    
+}
+#page4l h2{
+    font-size: 42px;
+    font-family: shiv1;
+    font-weight: 900;
+}
+#page4l h3{
+    font-size: 37px;
+    font-weight: 400;
+    letter-spacing:-2px ;
+    /* font-family: shiv1; */
+
+}
+#page4l h4{
+    margin-top: 10px;
+    font-weight: 500;
+}
+#page4l h4 span{
+    color: black;
+    font-weight: 900;
+}
+
+
+#page4r{
+    width: 50%;
+    height: 100%;
+    /* background-color: #12a5b8; */
+    padding-left: 33px;
+}
+#page4r img{
+    /* width: 80%; */
+    height: 45%;
+}
+#page4r h4{
+    font-size: 23px;
+    font-family: shiv1;
+    margin-bottom: 20px;
+}
+#page4r p{
+width: 90%;
+}
+#page4left-bottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 4%;
+}
+#page4left-bottom img{
+    width: 60%;
+    height: 60%;
+    /* object-fit: cover; */
+    
+}
+
+/* ############################################################################################
+                IMP IMP IMP IMP IMP IMP IMP IMP IMP IMP IMP IMP IMP IMP
+############################################################################################ */
+
+
+#page4right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:30%;
+    height: 100%;
+    background-color: c5b8b3;
+    padding: 0 32px;
+}
+#page4right h1{
+    /* padding-bottom:20px; */
+    font-family: shiv1;
+    font-size: 52px;
+    background-color: #c5b8b3;
+    line-height: 65px;
+}
+#page4right h1 span{
+    font-size: 97px;
+    letter-spacing: -4px;
+}
+#page4right p{
+    font-family: shiv1;
+    font-size: 23px;
+    font-weight: 300;
+    width: 100%;
+    margin-bottom:20px ;
+
+}
+#anda{
+    width: 100%;
+    height: 130px;
+    background-color: #cbc2b8;
+    /* background-color: red; */
+    border: 2px solid black;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: all ease 0.6s;
+    overflow: hidden;
+}
+    
+#anda h1{
+    font-size: 40px;
+    font-family: canopee;
+    font-weight:600 ;
+     height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color: #cbc2b8;
+    height: 30px;
+    transform:translateX(-30%)
+
+}
+#anda img{
+    height: 30px;
+    /* display: inline-block; */
+    transform:translateX(-120%);
+    transition: all ease 0.6s;
+
+
+}
+#anda:hover img{
+    transform:translateX(80%);
+
+}
+#anda:hover h1{
+    transform:translateX(130%);
+
+}
+
+#page5{
+    width: 100%;
+    height: 120px;
+    padding: 12px 0;
+    background-color: #cbc2b8;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+   animation-name:scroll;
+   animation-duration:4s;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear ;
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+
+}
+#page5 h1{
+    font-size: 90px;
+    font-family: shiv1;
+    font-weight: 100;
+    /* width: 100%; */
+    display: inline-block;
+    /* background-color: #a53205; */
+    margin-right: 20px;
+   
+}
+#page5 h1 span{
+    font-family: canopee;
+    background-color: #353434;
+    color: #c5b8b3;
+    padding: 0 12px;
+}
+ #page5::-webkit-scrollbar{
+    display: none;
+} 
+
+
+/* #page6{
+    width: 100%;
+     height: 50px; 
+    background-color: #a53205;
+} */
+
+@keyframes scroll {
+    0%{
+    transform:translateX(0)
+    }
+    100%{
+    transform:translateX(calc(-100% - 24px))
+
+    }
+}
+
+#page5:hover h1{
+    animation-play-state: paused;
+} 
+
+
+
+
